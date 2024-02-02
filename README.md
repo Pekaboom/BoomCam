@@ -33,18 +33,25 @@ To install BoomCam locally, follow these steps:
 2. Install dependencies:
 
    ```bash
-   Copy code
+   cd TypeScript
    yarn install
    ```
-3. Run the development server:
-
+   or
    ```bash
-   Copy code
+   cd TypeScript
+   npm install
+   ```
+4. Run the development server:
+   ```bash
+   npm start
+   ```
+   or
+   ```bash
    yarn dev
    ```
    Visit http://localhost:3000 in your browser.
    
-4. TypeScript Configuration
+5. TypeScript Configuration
    BoomCam is built with TypeScript. Ensure that you have TypeScript installed:
    
    ```bash
